@@ -8,7 +8,7 @@ if [[ ! -f /app/package.json ]]; then
 fi
 
 # install dependencies
-if [ -d /app/node_modules ]; then
+if [ ! -d /app/node_modules ]; then
   echo "Installing dependencies ..."
   cd app
   yarn install
