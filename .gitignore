@@ -431,3 +431,5 @@ yarn-error.log
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/node,yarn,phpunit,intellij,intellij+all,go,java,vuejs,nextjs
+
+/app
