@@ -1,20 +1,35 @@
 # Dockerized infrastructure for React application using Vite.js
 
 ## Get started
+Clone the infrastructure:
+```shell
+git clone git@github.com:willfrnds6/react-vite.git my-app && cd my-app
+```
+---
 
-Clone the project, go in the project and start the infrastructure with the following command:
+Start the container with the following command:
 ```shell
 docker compose up -d
 ```
+---
 
-When your React app is initialized go in the `package.json`file and update the `dev` command by:
+When your React app is initialized, go in your app folder and type the following command to allow your computer to update the project files   
+```shell
+ sudo chown -R $USER:$USER *
+```
+---
+
+In the `package.json, replace the dev command with the following one to enable your browser to display your React app
 ```json
 {
   "dev": "vite --host"
 }
 ```
+---
 
 Now restart the container:
 ```shell
 docker compose restart node
 ```
+
+Now you can work on your React application ! Enjoy 😉
