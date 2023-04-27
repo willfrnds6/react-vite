@@ -1,4 +1,4 @@
-# Dockerized infrastructure for React application using Vite.js
+# Docker infrastructure for React application using Vite.js
 
 ## Get started
 Clone the infrastructure:
