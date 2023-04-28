@@ -3,7 +3,7 @@
 ## Get started
 Clone the infrastructure:
 ```shell
-git clone git@github.com:willfrnds6/react-vite.git my-app && cd my-app
+git clone https://github.com/willfrnds6/react-vite.git my-app && cd my-app
 ```
 ---
 
