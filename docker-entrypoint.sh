@@ -8,11 +8,12 @@ if [[ ! -f /app/package.json ]]; then
 fi
 
 # install dependencies
-if [ -d /app/node_modules ]; then
-  rm -rf /app/node_modules
+if [[ -d /app/node_modules ]]; then
+  sudo rm -rf /app/node_modules
 fi
 
 echo "Installing dependencies ..."
+yarn add vite -g
 yarn install
 
 # Start react app
